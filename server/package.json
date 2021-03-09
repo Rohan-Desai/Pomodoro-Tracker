@@ -1,0 +1,23 @@
+{
+  "name": "pomodoro-tracker-backend",
+  "version": "1.0.0",
+  "description": "API for pomodoro tracker App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saumeel Desai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0"
+  }
+}
